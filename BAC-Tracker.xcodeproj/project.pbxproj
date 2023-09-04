@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4902BC922AA6335500EF5956 /* CareKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4902BC912AA6335500EF5956 /* CareKit */; };
+		4902BC942AA6335500EF5956 /* CareKitStore in Frameworks */ = {isa = PBXBuildFile; productRef = 4902BC932AA6335500EF5956 /* CareKitStore */; };
+		4902BC962AA6335500EF5956 /* CareKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4902BC952AA6335500EF5956 /* CareKitUI */; };
+		4902BC972AA6337000EF5956 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCBA9682A12803B00007FBF /* HealthKit.framework */; };
 		6BCA7A8F2A169DE00057EE01 /* CareKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6BCA7A8E2A169DE00057EE01 /* CareKit */; };
 		6BCA7A912A169DE00057EE01 /* CareKitStore in Frameworks */ = {isa = PBXBuildFile; productRef = 6BCA7A902A169DE00057EE01 /* CareKitStore */; };
 		6BCA7A932A169DE00057EE01 /* CareKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6BCA7A922A169DE00057EE01 /* CareKitUI */; };
@@ -19,7 +23,6 @@
 		6BCBA95B2A127EF600007FBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BCBA95A2A127EF600007FBF /* Assets.xcassets */; };
 		6BCBA95E2A127EF600007FBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BCBA95D2A127EF600007FBF /* Preview Assets.xcassets */; };
 		6BCBA9652A127F5700007FBF /* HealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCBA9642A127F5700007FBF /* HealthStore.swift */; };
-		6BCBA9692A12803B00007FBF /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCBA9682A12803B00007FBF /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,9 +46,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4902BC922AA6335500EF5956 /* CareKit in Frameworks */,
 				6BCA7A8F2A169DE00057EE01 /* CareKit in Frameworks */,
-				6BCBA9692A12803B00007FBF /* HealthKit.framework in Frameworks */,
+				4902BC942AA6335500EF5956 /* CareKitStore in Frameworks */,
 				6BCA7A932A169DE00057EE01 /* CareKitUI in Frameworks */,
+				4902BC972AA6337000EF5956 /* HealthKit.framework in Frameworks */,
+				4902BC962AA6335500EF5956 /* CareKitUI in Frameworks */,
 				6BCA7A912A169DE00057EE01 /* CareKitStore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,6 +138,9 @@
 				6BCA7A8E2A169DE00057EE01 /* CareKit */,
 				6BCA7A902A169DE00057EE01 /* CareKitStore */,
 				6BCA7A922A169DE00057EE01 /* CareKitUI */,
+				4902BC912AA6335500EF5956 /* CareKit */,
+				4902BC932AA6335500EF5956 /* CareKitStore */,
+				4902BC952AA6335500EF5956 /* CareKitUI */,
 			);
 			productName = "BAC-Tracker";
 			productReference = 6BCBA9532A127EF200007FBF /* BAC-Tracker.app */;
@@ -418,6 +427,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		4902BC912AA6335500EF5956 /* CareKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6BCA7A8D2A169DE00057EE01 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKit;
+		};
+		4902BC932AA6335500EF5956 /* CareKitStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6BCA7A8D2A169DE00057EE01 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKitStore;
+		};
+		4902BC952AA6335500EF5956 /* CareKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6BCA7A8D2A169DE00057EE01 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKitUI;
+		};
 		6BCA7A8E2A169DE00057EE01 /* CareKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 6BCA7A8D2A169DE00057EE01 /* XCRemoteSwiftPackageReference "CareKit" */;
